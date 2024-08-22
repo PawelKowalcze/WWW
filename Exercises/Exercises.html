@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercises</title>
+        <style>
+            .quiz-img {
+                width: 200px;
+                border-radius: 15px;
+                margin-right: 20px;
+            }
+            .church-img {
+                width: 200px;
+                height: 200px;
+                object-fit: contain;
+                object-position: center;
+            }
+            .bot-img {
+                height: 200px;
+                width: 200px;
+                border-radius: 100px;
+                object-fit: cover;
+            }
+            .Searchboxd {
+                border-radius: 5px;
+                border-width: 1px;
+                border-style: solid;
+                font-size: 20px;
+                width: 200px;
+                padding-left: 8px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                color: gray;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .Searchboxe {
+                width: 300px;
+                font-weight: bold;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 8px;
+                border: none;
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
+            p {
+                color: gray;
+                font-size: 15px;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .Linkedln-signup {
+                margin-top: 5px;
+                margin-bottom: 10px;
+                width: 340px;
+                height: 22px;
+                border-width: 2px;
+                border-radius: 3px;
+                border-color: gray;
+                border-style: solid;
+            }
+            .LINK-Button {
+                width: 340px;
+                background-color: blue;
+                color: white;
+                height: 40px;
+                border-radius: 20px;
+                margin-top: 15px;
+                border: none;
+                font-size: 15px;
+                cursor: pointer;
+                transition: opacity 150ms;
+            }
+            .LINK-Button:hover {
+                opacity: 0.7;
+            }
+            .LINK-Button:active {
+                opacity: 0.55;
+            }
+            .TwTPhoto {
+                height: 40px;
+                width: 40px;
+                border: none;
+                border-radius: 20px;
+                object-fit: cover;
+                vertical-align: middle;
+            }
+            .TwTTextbox {
+                height: 20px;
+                width: 200px;
+                font-weight: bold;
+                color: lightgray;
+                border: none;
+                vertical-align: middle;
+            }
+            .TwTButton {
+                background-color: dodgerblue;
+                height: 30px;
+                padding-left: 15px;
+                padding-right: 15px;
+                color: white;
+                border-radius: 15px;
+                border: none;
+                font-size: 15px;
+                vertical-align: middle;
+            }
+            .Fname,
+            .Sname {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                color: gray;
+                border-radius: 5px;
+                border-style: solid;
+                border-color: gray;
+                border-width: 1px;
+                width: 150px;
+            }
+            .Email {
+                display: block;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                color: gray;
+                border-radius: 5px;
+                border-style: solid;
+                border-color: gray;
+                border-width: 1px;
+                width: 318px;
+                margin-top: 20px;
+            }
+            .Signupform {
+                display: block;
+                margin-top: 20px;
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                width: 332px;
+                border-radius: 5px;
+                border: none;
+                height: 40px;
+                cursor: pointer;
+            }
+            .div1 {
+                background-color: red;
+                height: 200px;
+                width: 200px;
+                display: inline-block;
+                margin-right: 15px;
+            }
+            .div2 {
+                background-color: green;
+                height: 200px;
+                width: 200px;
+                display: inline-block;
+                border-radius: 100px;
+            }
+            .div3 {
+                border-width: 1px;
+                border-color: black;
+                border-style: solid;
+                display: inline-block;
+                padding-left: 10px;
+                padding-right: 60px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .textindiv {
+                color: black;
+                margin-bottom: 15px;
+            }
+            .TwTdiv {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 20px;
+                display: inline-block;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            }
+            .FBfrieds {
+                width: 100%;
+                height: 150px;
+            }
+            .FriendName {
+                font-weight: bold;
+                font-size: 15px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                color: black;
+                margin-left: 6px;
+            }
+            .mutualFriend {
+                margin-bottom: 6px;
+                margin-left: 6px;
+            }
+            .FBfriendsButton {
+                margin-left: 6px;
+                margin-bottom: 6px;
+                background-color: blue;
+                color: white;
+                font-size: 12px;
+                padding-right: 12px;
+                padding-left: 12px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 4px;
+                border: none;
+                cursor: pointer;
+            }
+            .FBFriendsDiv {
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
+            .profilepicofafriend {
+                width: 25px;
+                border-radius: 12px;
+            }
+            .profilepicofafriend-div {
+                display: inline-block;
+                width: 25px;
+                vertical-align: middle;
+                margin-left: 4px;
+            }
+            .mutualFriend-div {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .friendsGrid {
+                display: grid;
+                grid-template-columns: 150px 150px 150px;
+                column-gap: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="quiz-img" src="quiz6.png">
+        <img class="church-img" src="Kościół_Mszana.png">
+        <img class="bot-img" src="13_13_bot.png">
+        <br>
+        <input class="Searchboxd" type="text" placeholder="Search">
+        <br>
+        <input class="Searchboxe" type="text" placeholder="Search Google or type a URL">
+        <hr>
+        <br>
+        <p> Email </p>
+        <input class="Linkedln-signup" type="text">
+        <p> By clicking Agree & Join, you agree to the Privacy Policy.</p>
+        <button class="LINK-Button"> Agree & Join </button>
+        <br>
+        <hr>
+        <br>
+        <div class="TwTdiv">
+            <img class="TwTPhoto" src="13_13_bot.png">
+            <input class="TwTTextbox" type="text" placeholder="What's happening?">
+            <button class="TwTButton"> Tweet </button>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <input class="Fname" type="text" placeholder="First name">
+        <input class="Sname" type="text" placeholder="Second name">
+        <input class="Email" type="text" placeholder="Email">
+        <button class="Signupform"> Sign Up</button>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <br>
+        <div class="div3">
+            <p class="textindiv"> Satisfied with our service?</p>
+            <button> Yes </button>
+            <button> No </button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="friendsGrid">
+            <div class="FBFriendsDiv">
+            <div>
+                <img class="FBfrieds" src="quiz6.png">
+            </div>
+            <div>
+                <p class="FriendName">
+                    Oliver
+                </p>
+            </div>
+            <div class="profilepicofafriend-div">
+                <img class="profilepicofafriend" src="quiz6.png">
+            </div>
+            <div class="mutualFriend-div">
+                <p class="mutualFriend">
+                    2 mutual friends
+                </p>
+            </div>
+            <div>
+                <button class="FBfriendsButton"> Add Friend </button>
+            </div>
+        </div>
+        <div class="FBFriendsDiv">
+            <div>
+                <img class="FBfrieds" src="Kościół_Mszana.png">
+            </div>
+            <div>
+                <p class="FriendName">
+                    Rex
+                </p>
+            </div>
+            <div class="profilepicofafriend-div">
+                <img class="profilepicofafriend" src="quiz6.png">
+            </div>
+            <div class="mutualFriend-div">
+                <p class="mutualFriend">
+                    4 mutual friends
+                </p>
+            </div>
+            <div>
+                <button class="FBfriendsButton"> Add Friend </button>
+            </div>
+        </div>
+        <div class="FBFriendsDiv">
+            <div>
+                <img class="FBfrieds" src="13_13_bot.png">
+            </div>
+            <div>
+                <p class="FriendName">
+                    Kitty
+                </p>
+            </div>
+            <div class="profilepicofafriend-div">
+                <img class="profilepicofafriend" src="quiz6.png">
+            </div>
+            <div class="mutualFriend-div">
+                <p class="mutualFriend">
+                    3 mutual friends
+                </p>
+            </div>
+            <div>
+                <button class="FBfriendsButton"> Add Friend </button>
+            </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="width: 200px; background-color: lightblue;">200px</div>
+            <div style="width: 75px; background-color: lightpink;">75px</div>
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="width: 50px; background-color: lightblue;">item1</div>
+            <div style="flex:1; background-color: lightpink;">item2</div>
+            <div style="width: 75px; background-color: lightblue;">item1</div>
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            ">
+            <div style="background-color: lightpink;">item1</div>
+            <div style="background-color: lightpink;">item2</div>
+            <div style="background-color: lightpink;">item3</div>
+            <div style="background-color: lightpink;">item4</div>
+        </div>
+        <br>
+        <div style="
+            height: 50px;
+            border-color: gray;
+            border-style: solid;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            ">
+            <div style="background-color: lightpink;">item1</div>
+            <div style="background-color: lightpink;">item2</div>
+        </div>
+        <br>
+        <br>
+
+    </body>
+</html>

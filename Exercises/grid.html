@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+    <style>
+        .gridDiv {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 2fr 1fr 3fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+    ">
+        <div style="background-color: lightblue;">div1</div>
+        <div style="background-color: lightpink;">div2 <p> text </p></div>
+    </div>
+    <div style="
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 100px 1fr 2fr;
+    ">
+            <div style="background-color: lightblue;">div1</div>
+            <div style="background-color: lightpink;">div2 <p> text </p></div>
+            <div style="background-color: lightblue;">div3 <p> text </p></div>
+
+    </div>
+
+    <div class="gridDiv">
+        <div style="background-color: blue;">col1</div>
+        <div style="background-color: red;">col2</div>
+        <div style="background-color: yellow;">col3</div>
+        <div style="background-color: black;">col4</div>
+
+        <div style="background-color: blue;">col1</div>
+        <div style="background-color: red;">col2</div>
+        <div style="background-color: yellow;">col3</div>
+        <div style="background-color: black;">col4</div>
+    </div>
+</body>
+</html>

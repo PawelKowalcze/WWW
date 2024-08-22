@@ -1,0 +1,221 @@
+.amazon-link{
+            color: red;
+            transition: color 0.2s;
+        }
+        .amazon-link:hover{
+            color: blue;
+        }
+        .subscribe-button {
+            background-color: #cd0000;
+            color: white;
+            border: none;
+            padding-top: 10px ;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: opacity 0.15s;
+            margin-left: 20px;
+            vertical-align: top;
+        }
+
+        .subscribe-button:hover {
+            opacity: 0.65;
+        }
+        .subscribe-button:active{
+            opacity: 0.5;
+        }
+        .join-button{
+            background-color: white;
+            border-color: #0051ff;
+            color: blue;
+            border-style: solid;
+            border-width: 1px;
+            cursor: pointer;
+            padding-left: 16px;
+            padding-bottom: 9px;
+            padding-right: 16px;
+            padding-top: 9px ;
+            border-radius: 2px;
+            transition: background-color 0.15s, color 0.15s;
+            vertical-align: top;
+        }
+        .join-button:hover {
+            background-color: blue;
+            color: white;
+        }
+        .join-button:active{
+            opacity: 0.7;
+
+        }
+        .tweet-button{
+            background-color: #006dd9;
+            color: white;
+            border: none;
+            height: 36px;
+            width: 80px;
+            border-radius: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 15px;
+            margin-left: 8px;
+            transition: box-shadow 0.15s;
+            vertical-align: top;
+        }
+        .tweet-button:hover {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .uber-button{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            width: 100px;
+            height: 30px;
+            font-size: 12px;
+            transition: opacity 0.15s;
+        }
+        .uber-button:hover {
+            opacity: 0.7;
+
+        }
+        .amazon-button{
+            height: 30px;
+            background-color: rgb(255,216,20);
+            width: 150px;
+            color: black;
+            border-radius: 15px;
+            border: none;
+            font-size: 13px;
+            cursor: pointer;
+            transition: background-color 150ms;
+        }
+        .amazon-button:hover{
+            background-color: rgb(215, 178, 0);
+
+        }
+        .GitHub-button{
+            background-color: rgb(46, 164,79);
+            color: white;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            width: 80px;
+            transition: box-shadow 150ms;
+        }
+        .GitHub-button:hover{
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .Bootstrap-button1{
+            background-color: rgb(121, 82, 179);
+            border: none;
+            border-radius: 2px;
+            color: white;
+            height: 30px;
+            width: 100px;
+            cursor: pointer;
+            margin-right: 10px;
+            transition: background-color 150ms, color 150ms;
+        }
+        .Bootstrap-button1:hover{
+            background-color: rgb(109, 51, 178);
+            color: yellow;
+
+        }
+        .Bootstrap-button2{
+            color: rgb(108, 117, 125);
+            border-radius: 2px;
+            background-color: white;
+            height: 30px;
+            width: 100px;
+            cursor: pointer;
+            margin-right: 10px;
+            border-width: 1px;
+            border-color: rgb(108, 117, 125);
+            transition: background-color 150ms, color 150ms;
+        }
+        .Bootstrap-button2:hover {
+            background-color: rgb(108, 117, 125);
+            color: white;
+
+        }
+        .Linkedln-button1{
+            background-color: #0670ff;
+            border: none;
+            height: 30px;
+            border-radius: 15px;
+            color: white;
+            width: 200px;
+            cursor: pointer;
+            transition: background-color 150ms;
+        }
+        .Linkedln-button1:hover {
+            background-color: #014db4;
+        }
+
+        .Linkedln-button2{
+            color: #0670ff;
+            background-color: white;
+            height: 30px;
+            border-radius: 15px;
+            border-width: 2px;
+            cursor: pointer;
+            border-color: #0670ff ;
+            width: 50px;
+            font-size: 13px;
+            font-weight: bold;
+            border-style: solid;
+            transition: background-color 150ms, border-width 50ms;
+        }
+        .Linkedln-button2:hover {
+            background-color: rgba(6,112,255, 0.2);
+            border-width: 3px;
+        }
+        .pages{
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .pageNumbers {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .StretchingButton{
+            border: none;
+            color: white;
+            background-color: green;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 10px;
+            cursor: pointer;
+            transition: padding-right 150ms, padding-left 150ms, padding-bottom 150ms, padding-top 150ms;
+        }
+        .StretchingButton:hover {
+            padding-bottom: 20px;
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-top: 20px;
+        }
+        .shadowButton{
+            border: none;
+            color: white;
+            background-color: green;
+            margin-top: 2px;
+            margin-left: 6px;
+            padding-bottom: 6px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 6px;
+            cursor: pointer;
+            box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+            transition: margin-left 25ms, margin-top 25ms, box-shadow 25ms;
+        }
+        .shadowButton:active {
+            box-shadow: none;
+            margin-top: 7px;
+            margin-left: 11px;
+        }

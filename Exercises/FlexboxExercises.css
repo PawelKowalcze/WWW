@@ -1,0 +1,179 @@
+    p {
+        margin: 0;
+    }
+
+    body {
+        padding-bottom: 500px;
+    }
+    .FollowersBox {
+        border: none;
+
+    }
+
+    .ImageDiv {
+        margin-left: 6px;
+        margin-right: 6px;
+        width: 40px;
+    }
+    .AccountImage {
+        width: 40px;
+        border-radius: 20px;
+        object-fit: contain;
+    }
+    .FollowerFlexbox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .FollowerInfo {
+        width: 170px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Name {
+        font-family: arial;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .Nickname {
+        font-family: arial;
+        color: gray;
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+
+    .Hashtag {
+        font-family: arial;
+        color: gray;
+        font-size: 11px;
+    }
+
+    .FollowButton {
+        background-color: cornflowerblue;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: opacity 150ms;
+        color: white;
+        font-weight: bold;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        padding-left: 10px;
+
+    }
+    .FollowButton:hover {
+        opacity: 0.7
+    }
+
+    .TopBar {
+        background-color: mediumpurple;
+        border:none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+    }
+    .LeftSection {
+        margin-left: 14px;
+        color: white;
+        font-family: "Times New Roman";
+        Font-size: 16px;
+        margin-right: 0;
+    }
+
+    .Home {
+        transition: cursor 200ms,  text-decoration 200ms;
+    }
+
+    .Home:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .MiddleSection {
+        flex: 1;
+        max-width: 800px;
+        background-color: red;
+        margin-left: 80px;
+        margin-right: 80px;
+        display: flex;
+    }
+
+    .SearchBar {
+        height: 28px;
+        border-radius: 14px;
+        border: none;
+        padding-left: 16px;
+        flex: 1;
+    }
+
+    .RightSection {
+        margin-right: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .DownloadButton {
+        background-color: mediumpurple;
+        border-color: white;
+        color: white;
+        font-size: 13px;
+        padding-top: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 8px;
+        border-radius: 2px;
+        border: solid;
+        border-width: 1px;
+        cursor: pointer;
+    }
+
+    .mainBox {
+        width: 400px;
+        border: none;
+        box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        border-radius: 3px;
+    }
+
+    .header {
+        display: block;
+        color: gray;
+        margin-left: 10px;
+        padding-top: 8px;
+    }
+
+    .Picture {
+        width: 36px;
+        border-radius: 18px;
+
+    }
+
+    .mainFlexbox {
+        display: flex;
+        align-items: center;
+        margin-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .PictureFlex {
+        width: 40px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .TextFlex {
+        width: 400px;
+    }
+
+    .smallFlexbox {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 8px;
+    }
