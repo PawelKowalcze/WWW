@@ -1,0 +1,51 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: red;
+}
+
+.hello-div{
+    display: flex;
+    justify-content: center;
+}
+
+.hellothere-button {
+    flex: 2;
+    border-color: #0051ff;
+    border-width: 2px;
+    background-color: white;
+    color: #0051ff;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    transition: box-shadow 150ms;
+}
+
+.hellothere-button:active{
+    box-shadow: none;
+
+}
+
+.hello-button{
+    flex: 1;
+    padding: 15px 10px 15px 10px;
+    color: white;
+    font-size: 15px;
+    background-color: blue;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    transition: background-color 150ms;
+    justify-content: center;
+}
+
+.hello-button:hover {
+    background-color: #0670ff;
+}
+
+.hello-button:active{
+    background-color: #cd0000;
+}
+
+@media(max-width: 600px){
+/*        to będzie się wykonywać po zmniejszenu szerokości strony do 600px*/
+}

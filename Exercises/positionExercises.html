@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PositionExercises</title>
+    <style>
+        .flexbox {
+            display: flex;
+            color: gray;
+            align-items: baseline;
+        }
+        .hash {
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 8px;
+            margin-left: 16px;
+            margin-top: 6px;
+        }
+    </style>
+
+</head>
+<body style="padding-bottom: 3000px;">
+    <div style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 40px;
+        right: 40px;
+
+        ">
+        <div style="
+            display: flex;
+            align-items: center;
+
+            ">
+            <div style="margin-right: 8px"> <img style="height: 30px;
+                border-radius: 15px;
+                " src="quiz6.png"> </div>
+            <div style="font-weight: bold;"> Oliver Cat </div>
+        </div>
+        <div style="
+            display: flex;
+            align-items: center;
+
+            ">
+            <div style="margin-right: 6px;"> <button style="background-color: #006dd9; color: white; border: none; border-radius: 4px; padding-left: 8px; padding-right: 8px; padding-top: 6px; padding-bottom: 6px; cursor: pointer; "> Add Friend</button></div>
+            <div> <button style="background-color: lightgray; color: black; font-weight: bold; border: none; border-radius: 4px; padding-left: 10px; padding-right: 10px; padding-top: 6px; padding-bottom: 6px; cursor: pointer; "> Message </button></div>
+        </div>
+    </div>
+    <div style="
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 40px;
+        bottom: 0;
+        left: 0;
+        width: 50px;
+        background-color: #212121;
+        padding-left: 5px;
+
+        ">
+        <img style="height: 40px; width: 40px; border-radius: 20px; margin-top: 6px;" src="quiz6.png">
+        <img style="height: 40px; width: 40px; border-radius: 20px; margin-top: 6px; " src="Kościół_Mszana.png">
+        <img style="height: 40px; width: 40px; border-radius: 20px; margin-top: 6px; " src="13_13_bot.png">
+    </div>
+    <div style="
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 40px;
+        left: 55px;
+        bottom: 0;
+        width: 150px;
+        background-color: #333333;
+        ">
+        <div class="flexbox" style="justify-content: space-between">
+            <div style=" color: white; font-weight: bold; margin-left: 12px; margin-top: 16px; "> INFO</div>
+            <div style="margin-right: 16px; font-weight: bold;"> + </div>
+        </div>
+        <div class="flexbox">
+            <div class="hash">#</div>
+            <div> new-videos</div>
+        </div>
+        <div class="flexbox">
+            <div class="hash"> # </div>
+            <div> updates </div>
+        </div>
+        <div class="flexbox">
+            <div class="hash" > # </div>
+            <div> faq</div>
+        </div>
+    </div>
+</body>
+</html>

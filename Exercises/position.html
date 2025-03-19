@@ -11,7 +11,8 @@
         top: 0;
         left: 0;
         right: 0;
-        height: 50px;"
+        height: 50px;
+        z-index: 1;"
     >
 
         header
@@ -25,6 +26,15 @@
         width: 72px;
         ">
         sidebar
+        <div style="position: absolute;
+        background-color: red;
+        color: white;
+        right: 0;
+        top: 0;
+        ">
+
+        x
+        </div>
     </div>
     <div style="background-color: lightblue;
          height: 200px;
@@ -34,10 +44,72 @@
     <div style="background-color: lightpink;
         height: 200px;
         width: 200px;
+        position: relative;
         ">
         div2
+        <div style="position: absolute;
+        background-color: black;
+        color: white;
+        right: 10px;
+        bottom: 10px;
+        ">
 
+        5:00
+        </div>
+    </div>
+    <div style=" background-color: black;
+        color: white;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+
+        ">
+        bottom-right
+    </div>
+    <div style="position: absolute;
+        background-color: red;
+        color: white;
+        right: 10px;
+        top: 60px;
+        ">
+
+        absolute
     </div>
 
+
+    <div style="background-color: green;
+        width: 100px;
+        color: white;
+        position: fixed;
+        top: 50px;
+        bottom: 0;
+        right: 0;
+        ">
+        right sidebar
+    </div>
+     <!--- <div style="
+        background-color: rgba(0,0,0,0.8);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ">
+            <div style="
+            background-color: white;
+            padding-left: 12px;
+            padding-right: 200px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            border-radius: 5px;
+            ">
+                <div style="font-size: 20px; font-weight: bold; margin-bottom: 8px;"> Modal Title</div>
+                <div style="font-size: 16px; margin-bottom: 8px;"> This is a modal</div>
+                <div> <button> Close </button> </div>
+            </div>
+    </div> --->
 </body>
 </html>
