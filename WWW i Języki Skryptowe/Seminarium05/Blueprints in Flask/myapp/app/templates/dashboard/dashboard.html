@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .dashboard-container {
+            width: 80%;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .dashboard-container h2 {
+            margin-bottom: 20px;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            background: #007bff;
+            padding: 15px;
+            color: white;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .content {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div>Dashboard</div>
+        <div>
+            <a href="/profile">Profil</a>
+            <a href="/settings">Ustawienia</a>
+            <a href="/logout">Wyloguj</a>
+        </div>
+    </div>
+    <div class="dashboard-container">
+        <h2>Witaj w Dashboardzie!</h2>
+        <p>To jest przykładowy panel użytkownika.</p>
+        <div class="content">
+            <p>Możesz tutaj dodać więcej funkcjonalności, np. listę aktywności, statystyki itp.</p>
+        </div>
+    </div>
+</body>
+</html>
